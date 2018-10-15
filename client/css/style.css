@@ -1,0 +1,71 @@
+/* UTILITY CLASSES - NAVIGATION */
+
+.custom-nav {
+    height: 120px;
+}
+
+.custom-nav i.material-icons {
+    font-size: 36px;
+}
+
+.custom-trigger {
+    margin: 32px 0 0 32px;
+}
+
+.custom-row {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    margin-bottom: 36px;
+    z-index: 1;
+}
+
+.content .custom-img {
+    width: 90%;
+    margin: 10px 5%;
+}
+
+.content h1 {
+    font-size: 2rem;
+}
+
+.content h5 {
+    margin: 10px 0;
+}
+
+.content h6 {
+    margin: 20px 0;
+    font-size: 1.02rem;
+}
+
+.custom-card {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h5.custom-title {
+    margin-left: 36px;
+}
+
+p.custom-paragraph {
+    margin-right: 24px;
+    margin-left: 72px;
+}
+
+p.custom-paragraph a {
+    color: #ff9800;
+}
+
+.custom-btn {
+    margin: 36px 0 36px 72px;
+}
+
+.custom-category-card {
+    margin-right: 24px;
+    margin-left: 72px;
+}
