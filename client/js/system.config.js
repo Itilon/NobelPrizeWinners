@@ -11,7 +11,8 @@ System.config({
 
         'main': 'client/js/main.js',
         'template': 'client/js/template.js',
-        'homeController': 'client/js/controllers/home.controller.js'
+        'homeController': 'client/js/controllers/home.controller.js',
+        'categoryController': 'client/js/controllers/category.controller.js'
     },
     meta: {
         'materialize': {

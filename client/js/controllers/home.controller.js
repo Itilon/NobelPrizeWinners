@@ -10,7 +10,10 @@ export async function getHomeTemplate() {
     $header.html(headerTemplate);
     $wrapper.html(homeTemplate);
     $(document).ready(() => {
-        $('.sidenav-trigger').sideNav();
+        $('.sidenav-trigger').sideNav({
+            closeOnClick: true
+        });
+        
         $('.custom-btn').click(() => {
             $('.tap-target').tapTarget('open');
         })
