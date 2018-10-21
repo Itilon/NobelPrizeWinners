@@ -10,9 +10,11 @@ System.config({
         'sammy': 'libs/sammy/lib/sammy.js',
 
         'main': 'client/js/main.js',
+        'materialize-config': 'client/js/materialize.config.js',
         'template': 'client/js/template.js',
         'homeController': 'client/js/controllers/home.controller.js',
-        'categoryController': 'client/js/controllers/category.controller.js'
+        'categoryController': 'client/js/controllers/category.controller.js',
+        'bioController': 'client/js/controllers/bio.controller.js'
     },
     meta: {
         'materialize': {

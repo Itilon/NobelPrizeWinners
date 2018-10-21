@@ -4,13 +4,13 @@ import { materializeConfig } from 'materialize-config';
 const $header = $('.main-header');
 const $wrapper = $('.wrapper');
 
-export async function getHomeTemplate() {
+export async function getBioTemplate() {
     const headerTemplate = await template.getTemplate('header');
-    const homeTemplate = await template.getTemplate('home');
+    const bioTemplate = await template.getTemplate('bio');
 
     $header.html(headerTemplate);
-    $wrapper.html(homeTemplate);
+    $wrapper.html(bioTemplate);
     $(document).ready(() => {
         materializeConfig();
     });
-};
+}
